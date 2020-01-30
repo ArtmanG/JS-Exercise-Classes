@@ -58,7 +58,7 @@ class Person {
     this.stomach = [];
   }
   toString(){
-
+    return `${this.name}, ${this.age}`;
   }
 }
 
