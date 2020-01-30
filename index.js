@@ -83,6 +83,9 @@ class Car {
     this.tank = 0,
     this.odometer = 0
   }
+  fill(gallons){
+    this.tank = this.tank + gallons;
+  }
 }
 
 /*
