@@ -188,7 +188,7 @@ class Student extends Lambdasian {
   listSubjects(){
     return `Loving ${this.favSubjects}!`
   }
-  PRAssignments(subject){
+  PRAssignment(subject){
     return `${this.name} has submitted a PR for ${subject}.`
   }
   sprintChallenge(subject){
